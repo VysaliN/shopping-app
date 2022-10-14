@@ -1,0 +1,27 @@
+input{
+    padding: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.btn{
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.items{
+    background-color: rgb(132, 137, 137);
+    width:300px;
+}
+.item
+{
+    margin-bottom: 10px;
+}
+.delete{
+
+      float:right;
+      margin-right:30px;
+      color:rgb(186, 29, 29);
+}
