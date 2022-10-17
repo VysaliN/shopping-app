@@ -14,11 +14,12 @@ input{
 .items{
     background-color: rgb(132, 137, 137);
     width:300px;
-    overflow:hidden;
+   
 }
 .item
 {
     margin-bottom: 10px;
+     overflow:hidden;
 }
 .delete{
 
