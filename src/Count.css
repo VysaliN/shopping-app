@@ -19,6 +19,7 @@
     background-color: rgb(232, 232, 241);
     width: 500px;
     height:400px;
+    overflow-y: scroll;
     
 }
 

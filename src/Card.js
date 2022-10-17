@@ -17,7 +17,7 @@ const Card = ({products,AddProduct,RemoveProduct}) => {
     }
     return (
         <center>
-            <div class="card" style={{"width": "18rem"}}>
+            <div class="card">
                 <div class="card-body">
                     <form onSubmit={submitHandler}>
                     <input type="text" placeholder="Add Products" value={item} onChange={e => setItem(e.target.value)}/> <br />
