@@ -1,0 +1,66 @@
+.signup {
+  background-color: rgb(170, 231, 248);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupform {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  padding-top: 20px;
+  box-shadow: 0px 20px 45px -29px rgba(5, 73, 136, 0.5);
+}
+
+.username {
+  width: 310px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+
+.email {
+  width: 310px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.password {
+  width: 310px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+label {
+  font-size: small;
+  margin-top: 20px;
+}
+.signupbtn {
+  width: 310px;
+  margin-top: 20px;
+  background-color: rgb(15, 148, 201);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.2s;
+}
+.signupbtn:hover {
+  background-color: rgb(16, 116, 155);
+}
+.signupbtn:active {
+  transform: scale(0.9);
+}
+
+.account {
+  margin-top: 10px;
+}

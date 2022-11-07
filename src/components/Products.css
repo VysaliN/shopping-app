@@ -1,0 +1,90 @@
+.display {
+  display: flex;
+  width: 100vw;
+  margin-top: 10px;
+}
+h3 {
+  margin-left: 30px;
+}
+.cartbtn {
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: rgb(10, 10, 10);
+  margin-left: 1100px;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.cartbtn:active {
+  transform: scale(0.9);
+}
+
+.loading {
+  margin-top: 100px;
+}
+.search {
+  padding: 5px;
+  width: 450px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  outline: none;
+  border: 1px solid rgb(190, 189, 189);
+  margin-left: 35%;
+  margin-top: 30px;
+}
+.products {
+  display: flex;
+  margin-bottom: 50px;
+}
+.all {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+.all:hover{
+    cursor: pointer;
+}
+.men {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.men:hover{
+    cursor: pointer;
+}
+.women {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.women:hover{
+    cursor: pointer;
+}
+.jewelery {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.jewelery:hover{
+    cursor: pointer;
+}
+.electronics {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.electronics:hover{
+    cursor: pointer;
+}
+.buy {
+  background-color: rgb(252, 141, 36);
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  padding: 5px;
+  transition: all 0.2s;
+}
+.buy:hover {
+  background-color: rgb(218, 123, 34);
+}
+.buy:active {
+  transform: scale(0.9);
+}
